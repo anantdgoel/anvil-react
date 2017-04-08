@@ -6,45 +6,39 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import {Tabs, Tab} from 'material-ui/Tabs';
 import FontIcon from 'material-ui/FontIcon';
 import {cyan500} from 'material-ui/styles/colors';
+import { Link } from 'react-router-dom';
 
-
-const muiTheme = getMuiTheme({
-  palette: {
-    textColor: cyan500,
+const styles = {
+  headline: {
+    fontSize: 24,
+    paddingTop: 16,
+    marginBottom: 12,
+    fontWeight: 400,
   },
-  tabs: {
-    color: cyan500,
-    height: 50,
-  },
- 
-  });
+};
 
 export default class Header extends Component {
 	render() {
     return (
-    	<div className="Header">
+      <div className="Header">
     		<div className="Header_1">
     		<img src={logo} className="App-logo" alt="logo" />
     		<h2>Welcome to the Anvil</h2>
-    		</div>
-
-    	<MuiThemeProvider muiTheme={muiTheme}>
-    	<Tabs>
-    		<Tab
-     		 icon={<FontIcon className="material-icons">dashboard</FontIcon>}
-    		/>
-    		<Tab
-      		icon={<FontIcon className="material-icons">events</FontIcon>}
-    		/>
-    		<Tab
-     		icon={<FontIcon className="material-icons">other members</FontIcon>}
-   			 />
-    		<Tab
-     		icon={<FontIcon className="material-icons">profile</FontIcon>}
-   			 />
-  		</Tabs>
-  		</MuiThemeProvider>
     	</div>
+
+      <div className="Header_2">
+      <nav className="nav">
+      <a>
+      <Link to="Events"> Events</Link>
+      <Link to="Dashboard">Dashboard</Link>
+      <Link to="OtherMembers">Other Members</Link>
+      <Link className="aa" to="Profile">Profile</Link>
+      </a>
+
+     </nav>
+        
+        </div>
+        </div>
 
     );
   }
