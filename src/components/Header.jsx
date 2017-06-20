@@ -21,18 +21,18 @@ export default class Header extends Component {
 	render() {
     return (
       <div className="Header">
-    		<div className="Header_1">
+    		<header>
     		<img src={logo} className="App-logo" alt="logo" />
     		<h2>Welcome to the Anvil</h2>
-    	</div>
+    	</header>
 
       <div className="Header_2">
       <nav className="nav">
       <a>
-      <Link to="Events"> Events</Link>
-      <Link to="Dashboard">Dashboard</Link>
-      <Link to="OtherMembers">Other Members</Link>
-      <Link className="aa" to="Profile">Profile</Link>
+      <Link to="Dashboard"> Dashboard</Link> 
+      <Link to="OtherMembers">Members</Link>
+      <Link to="Events">Events</Link>
+      <Link className="aa" to="Profile">My Profile</Link>
       </a>
 
      </nav>

@@ -1,25 +1,31 @@
-.Header_1 h2 {
+h2 {
   position: relative;
-  top: 18px;
+  top: 10px;
   left: 40px;
+  margin-right: 100px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px; 
+  font-size: 20px;
+  min-width: 1000px; 
 }
 
 .App-logo {
   /*animation: App-logo-spin infinite 20s linear;*/
   height: 70px;
   float: left;
-  top: 5px;
   margin-left: 100px;
+  margin-top: 5px;
 }
 
+header {
+  background-color: white;
+  height: 100px;
+  padding: 5px;
 
+}
 .Header_2 {
     background-color: #FFCD2E;
-
-    margin-top: 60px;
-    color: #F9F9F9;
+    margin-top: -20px;
+    color: #bab9bb;
     font-size: 1.4rem;
     display: flex;
     align-items: center;
@@ -27,6 +33,9 @@
     padding: 20px 40px;
     height: 50px;
     box-sizing: border-box;
+    min-width: 1000px;
+
+
 }
 
 .nav a {
@@ -42,15 +51,15 @@
 }
 
 .nav a.aa {
+  position: relative;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px; 
   display: inline-block;
-  padding: 0 0px;
   opacity: 0.9;
-  margin-left: 700px;
   text-decoration:none;
   color: #F9F9F9;
   line-height:1;
+  left: 670px;
 
 }
 

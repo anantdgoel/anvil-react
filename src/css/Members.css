@@ -1,0 +1,14 @@
+.Members {
+    background-color: #cccccc;
+    margin-top: 40px;
+    color: #F9F9F9;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 45px;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    width: 700px;
+    height: 50px;
+    box-sizing: border-box;
+}
