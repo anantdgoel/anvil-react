@@ -20,3 +20,24 @@
     border-radius: 50%;
     height: 50px;
 }
+
+.content {
+    display: block;
+}
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-size:  1.3rem;
+    margin-left: 40px;
+    text-decoration: underline;
+    color: #cccccc;
+    
+}
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin-left: 40px;
+    margin-top: 3px;
+    font-size: 0.8rem;
+    color: #cccccc;
+    
+}

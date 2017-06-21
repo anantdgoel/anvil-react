@@ -11,7 +11,13 @@ class Card extends Component {
 				<div className="Card1">
 
 				<img src={avatar} className="img-circle" />
-				<a> hiiiii </a>
+
+				<div className="content">
+					<div className="name"> Jack Sparrow </div>
+					<div className="description"> 	Pirate Captain </div>
+
+				</div>
+
 				</div>
 			
 			</div>
