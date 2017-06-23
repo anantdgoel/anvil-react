@@ -24,6 +24,9 @@
 .content {
     display: block;
 }
+.cont {
+    display: inline;
+}
 .name {
     font-family: 'Montserrat', sans-serif;
     font-size:  1.3rem;
