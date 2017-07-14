@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import Profile from './Profile';
 import Events from './Events';
 
-const dummyData = {
-	user: {
+const dummyUser = {
   "uid": 123456789,
-  "fname": "First Name",
-  "lname": "Last Name",
+  "fname": "Audrey",
+  "lname": "Vincent",
   "email": "first.last@example.com",
   "paid": false,
   "skills": [
@@ -18,23 +17,15 @@ const dummyData = {
   "student": true,
   "graduation": 2020,
   "auth": "JWT Token"
-	}
 };
 const eventData = {
 
 };
 
-class Dashboard extends Component {
-
-	render() {
-
-		return(
-			<div className="Dashboard">
-			<Profile user={dummyData} />
-			<Events events={eventData} />
-			</div>
-
-		);
-	}
-}
+const Dashboard = () => (
+	<div className="Dashboard page">
+		<Profile user={dummyUser} />
+		<Events events={eventData} />
+	</div>
+);
 export default Dashboard;

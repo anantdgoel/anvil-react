@@ -1,6 +1,5 @@
 .Card1 {
     background-color: white;
-
     font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     padding: 0 45px;
@@ -10,17 +9,13 @@
     width: 700px;
     height: 80px;
     box-sizing: border-box;
-     border-style: 75px;
+    border-style: 75px;
     border-bottom:1px solid #cccccc;
-    
 }
-
-
 .img-circle {
     border-radius: 50%;
     height: 50px;
 }
-
 .content {
     display: block;
 }
@@ -33,7 +28,6 @@
     margin-left: 40px;
     text-decoration: underline;
     color: #cccccc;
-    
 }
 .description {
     font-family: 'Montserrat', sans-serif;
@@ -42,5 +36,23 @@
     margin-top: 3px;
     font-size: 0.8rem;
     color: #cccccc;
-    
+}
+.skill {
+  padding: 5px;
+  border-radius: 3px;
+  margin: 0 5px 5px 0;
+  display: inline-block;
+  font-size: 8px;
+  font-weight: lighter;
+  color: #2C4E58;
+  background-color: #72CCE8;
+}
+.paddingLeft {
+  padding-left: 100px;
+}
+.prof-pic {
+  position: relative;
+  top: -38px;
+  left: 10px;  max-width: 75px;
+  border-radius: 50%;
 }
