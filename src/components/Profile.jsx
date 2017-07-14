@@ -5,11 +5,11 @@ import facebook from '../img/icons/facebook.svg';
 
 const Profile = ({ user }) => (
 	<div className="left bgwhite margin container space">
-		<div className="header paddingLeft left">
+		<div className="header white paddingLeft left">
 			<h3 className="ib">Hello {user.fname}</h3>
 		</div>
 		<img src={prof} className="prof-pic" alt="profile" />
-		<div className="bgwhite padding paddingLeft left content">
+		<div className="profile-card bgwhite paddingLeft left content">
 			<span className="bold">{user.fname}&nbsp;{user.lname}</span>
 			<br/>
 			{user.email}

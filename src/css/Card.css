@@ -16,11 +16,8 @@
     border-radius: 50%;
     height: 50px;
 }
-.content {
-    display: block;
-}
-.cont {
-    display: inline;
+.profile-card {
+  padding: 10px;
 }
 .name {
     font-family: 'Montserrat', sans-serif;

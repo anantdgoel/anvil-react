@@ -18,9 +18,25 @@ const dummyUser = {
   "graduation": 2020,
   "auth": "JWT Token"
 };
-const eventData = {
 
-};
+const eventData = [
+	{
+		"event": "Hack the Anvil",
+		"organization": "Purdue Hackers",
+		"location": "The Anvil",
+		"date": "September 2, 2017",
+		"time": "7:00 PM",
+		"description": "Hack the Anvil is a great place for you to hack hack hack"
+	},
+	{
+		"event": "Hack the Anvil",
+		"organization": "Purdue Hackers",
+		"location": "The Anvil",
+		"date": "September 2, 2017",
+		"time": "7:00 PM",
+		"description": "Hack the Anvil is a great place for you to hack hack hack"
+	}
+];
 
 const Dashboard = () => (
 	<div className="Dashboard page">
