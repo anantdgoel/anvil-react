@@ -16,11 +16,11 @@ class Card extends Component {
 	}
 
 	render() {
-	
+
 		return(
 			<div className="Card">
 				<div className="Card1">
-				<img src={avatar} className="img-circle" />
+				<img src={avatar} className="img-circle" alt="avatar" />
 				<div className="cont">
 					<div className="content">
 						<div className="name"> Jack Sparrow </div>
@@ -34,7 +34,7 @@ class Card extends Component {
 				</div>
 
 				</div>
-			
+
 			</div>
 
 		);

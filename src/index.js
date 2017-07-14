@@ -2,9 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {
   HashRouter,
-  Route,
-  IndexRoute,
-  Link
+  Route
 } from 'react-router-dom';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import App from './components/App';
@@ -28,11 +26,11 @@ injectTapEventPlugin();
 
 ReactDOM.render((
    <HashRouter>
-      
+
       <App>
         <Route exact path="/" component={Dashboard} />
         <Route path="/Profile" component={Profile} />
-        <Route path="/Dashboard" component={Dashboard} />
+        <Route path="/dashboard" component={Dashboard} />
         <Route path="/Events" component={Events} />
         <Route path="/OtherMembers" component={OtherMembers} />
       </App>

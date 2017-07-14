@@ -1,0 +1,16 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #72E8A8;
+}
+.prof-pic {
+  max-width: 30px;
+  border-radius: 50%;
+}
+
+.margin {
+  margin: 20px;
+}
